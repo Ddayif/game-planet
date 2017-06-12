@@ -18,6 +18,10 @@ footer .estilos-redes{ /*iconos de redes sociales*/
 	padding-top: 40px;
 }
 
+.estilos-redes i:hover{
+	color:grey;
+}
+
 footer .estilos-desarrollo{ /*desarrollado por y copygright*/
 	font-size: 14px;
 	text-align: center;
