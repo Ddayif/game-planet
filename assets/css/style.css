@@ -3,3 +3,27 @@
     padding: 0;
     
 }
+
+/*estilo FOOTER*/
+footer{ 
+	background-color: silver;
+	padding: 20px;
+}
+
+footer h5{ /*tamaño titulo "visitanos"*/
+	font-size: 22px;
+}
+
+footer .estilos-redes{ /*iconos de redes sociales*/
+	padding-top: 40px;
+}
+
+footer .estilos-desarrollo{ /*desarrollado por y copygright*/
+	font-size: 14px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.estilos-desarrollo span{
+	font-weight: bolder;
+}
