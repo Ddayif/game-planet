@@ -76,8 +76,9 @@
     /*estilo FOOTER*/
     
     footer {
-        background-color: silver;
+        background-color: #32283c;
         padding: 20px;
+        color: white;
     }
     
     footer h5 {
