@@ -1,6 +1,106 @@
-*{
-    margin: 0;
-    padding: 0;
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
+    }
+    /*SLIDER*/
     
-}
-
+    #inicio {
+        text-align: center;
+        padding-bottom: 6%;
+        padding-top: 2%;
+    }
+    /*FORMULARIO*/
+    
+    .contact-us {
+        border-bottom: solid gray;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .hello {
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        font-size: 2.40em;
+        margin: 64px 0 16px;
+    }
+    
+    .contacto button {
+        background-color: #C4003F;
+        border: 0;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: .75em;
+        letter-spacing: .09em;
+        padding: 8px;
+        text-transform: uppercase;
+        margin-left: 20%;
+    }
+    
+    .formulario input,
+    label,
+    small {
+        width: 60%;
+        margin-bottom: 16px;
+        vertical-align: top;
+        margin-left: 20%;
+    }
+    
+    .form-control {
+        width: 60%;
+        margin-bottom: 16px;
+        vertical-align: top;
+        margin-left: 20%;
+    }
+    
+    .container h2 {
+        margin-left: 16%;
+    }
+    
+    .contacto h5 {
+        text-align: center;
+    }
+    
+    .selectpicker {
+        margin-left: 16%;
+        width: 68%;
+    }
+    
+    .formulario {
+        margin-bottom: 33px;
+    }
+    /*estilo FOOTER*/
+    
+    footer {
+        background-color: silver;
+        padding: 20px;
+    }
+    
+    footer h5 {
+        /*tamaño titulo "visitanos"*/
+        font-size: 22px;
+    }
+    
+    footer .estilos-redes {
+        /*iconos de redes sociales*/
+        padding-top: 40px;
+    }
+    
+    .estilos-redes i:hover {
+        color: grey;
+    }
+    
+    footer .estilos-desarrollo {
+        /*desarrollado por y copygright*/
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .estilos-desarrollo span {
+        font-weight: bolder;
+    }
