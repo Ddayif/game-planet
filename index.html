@@ -14,45 +14,40 @@
 
 <body>
     <!--NAVBAR-->
-    <section class="navbar">
-        <div class="navbar-container" id="navegadorId">
-            <div class="row">
-                <div class="col-md-6 menu">
-                    <ul>
-                        <li><img src="assets/images/joystick.png" alt="joystick" id="joystick"></li>
-                        <li>
-                            <h1>Game Planet</h1>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 menu">
-                    <ul>
-                        <li class="dropdown"><a href="#satartId" class="dropdown">Start</a>
-                            <div class="dropdown-content">
-                                <a href="#">¿Quiénes somos?</a>
-                                <a href="#">Nuestra función</a>
-                            </div>
-                        </li>
-                        <li class="dropdown"><a href="#catalogueId" class="dropdown">Catalogue</a>
-                            <div class="dropdown-content">
-                                <a href="#">Nintendo Switch</a>
-                                <a href="#">Xbox One</a>
-                                <a href="#">Play Station 4</a>
-                            </div>
-                        </li>
-                        <li class="dropdown"><a href="#contactId" class="dropdowns">Contact</a>
-                            <div class="dropdown-content">
-                                <a href="#">Ayuda</a>
-                                <a href="#">Trabaja con nosotros</a>
-                                <a href="#">Dirección</a>
-                                <a href="#">Redes sociales</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-inverse container-fluid" >
+        <div class="navbar-fluid row center" id="navegadorId ">
+            <div class="navbar-header col-md-4 center">
+                <img src="assets/images/joystick.png" alt="joystick" id="joystick">
+                <h1 id="game-planet">Game Planet</h1>
             </div>
-        </div>
-    </section>
+            <div class="col-md-3 col-md-offset-4 center">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Start<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="letra" href="#">¿Quiénes somos?</a></li>
+                            <li><a class="letra" href="#">Nuestra función</a></li>   
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Catalogue<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="letra" href="#">Nintendo Switch</a></li>
+                            <li><a class="letra" href="#">Xbox One</a></li>
+                            <li><a class="letra" href="#">Play Station 4</a></li>    
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="letra" href="#">Ayuda</a></li>
+                            <li><a class="letra" href="#">Trabaja con nosotros</a></li>
+                            <li><a class="letra" href="#">Dirección</a></li> 
+                            <li><a class="letra" href="#">Redes sociales</a></li>    
+                        </ul>
+                    </li>
+                 </ul>
+            </div>
+        </div><!-- cierre navbar-fluid -->
+    </nav>
+ 
     <!-- Seccion catalogo -->
 
     <!-- seccion imagen uno, xbox one -->
