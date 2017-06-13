@@ -14,45 +14,35 @@
 
 <body>
     <!--NAVBAR-->
-    <section class="navbar">
-        <div class="navbar-container" id="navegadorId">
-            <div class="row">
-                <div class="col-md-6 menu">
-                    <ul>
-                        <li><img src="assets/images/joystick.png" alt="joystick" id="joystick"></li>
-                        <li>
-                            <h1>Game Planet</h1>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 menu">
-                    <ul>
-                        <li class="dropdown"><a href="#satartId" class="dropdown">Start</a>
-                            <div class="dropdown-content">
-                                <a href="#">¿Quiénes somos?</a>
-                                <a href="#">Nuestra función</a>
-                            </div>
-                        </li>
-                        <li class="dropdown"><a href="#catalogueId" class="dropdown">Catalogue</a>
-                            <div class="dropdown-content">
-                                <a href="#">Nintendo Switch</a>
-                                <a href="#">Xbox One</a>
-                                <a href="#">Play Station 4</a>
-                            </div>
-                        </li>
-                        <li class="dropdown"><a href="#contactId" class="dropdowns">Contact</a>
-                            <div class="dropdown-content">
-                                <a href="#">Ayuda</a>
-                                <a href="#">Trabaja con nosotros</a>
-                                <a href="#">Dirección</a>
-                                <a href="#">Redes sociales</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-inverse container-fluid" >
+        <div class="navbar-fluid row" id="navegadorId ">
+            <div class="navbar-header col-md-4 center">
+                <img src="assets/images/joystick.png" alt="joystick" id="joystick">
+                <h1 id="game-planet">Game Planet</h1>
             </div>
-        </div>
-    </section>
+            <div class="col-md-3 col-md-offset-4 center">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="#">Home<span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Catalogue<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="letra" href="#catalogo">Nintendo Switch</a></li>
+                            <li><a class="letra" href="#catalogo">Xbox One</a></li>
+                            <li><a class="letra" href="#catalogo">Play Station 4</a></li>    
+                       </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="letra" href="#contacto">Ayuda</a></li>
+                            <li><a class="letra" href="#contacto">Trabaja con nosotros</a></li>
+                            <li><a class="letra" href="#direccion">Dirección</a></li>
+                            <li><a class="letra" href="#redes">Redes sociales</a></li>    
+                       </ul>
+                    </li>
+                 </ul>
+            </div>
+        </div><!-- cierre navbar-fluid -->
+    </nav>
     <!-- Seccion catalogo -->
 
     <!-- seccion imagen uno, xbox one -->
@@ -216,7 +206,7 @@
     </section>
 
     <!--CONTACT US-->
-    <section class="contacto">
+    <section id="contacto" class="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -273,14 +263,14 @@
             <!-- Tres columnas principales -->
             <div class="row">
                 <!-- Columna lado izquierdo -->
-                <div class="col-md-4">
+                <div id="direccion" class="col-md-4">
                     <h5>COME TO OUR PLACE!</h5>
                     <p>Ahumada 85<br> Santiago Centro<br> Monday to Friday 10:00 a 20:00 hrs</p>
                 </div>
                 <!-- Columna central -->
                 <div class="col-md-4">
                     <!-- Division tres columnas centro -->
-                    <div class="row estilos-redes">
+                    <div id="redes" class="row estilos-redes">
                         <div class="col-md-4">
                             <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                         </div>

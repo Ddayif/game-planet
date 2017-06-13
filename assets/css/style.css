@@ -1,69 +1,44 @@
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', sans-serif;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 /*NAVBAR*/
 .navbar{
+    background-color: #d41067 ;
+}
+#joystick{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+#game-planet{
+    width: 220
+    margin:0;
+}
+
+.center{
+    display: flex;
+    align-items: flex-end;
+}
+
+.letra{
     color: white;
-    background-color: #d41067;
-}
-.navbar img{
-	width: 30px;
-	height: 30px;
-	left: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.navbar ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;;
-	background-color: #d41067;
-	font-family: Roboto;
-}
-
-.navbar ul li{
-	display: inline-block;
-}
-
-.navbar ul li a{
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 26px;
-	text-decoration: none;
-	left: 400px;
-}
-
-.navbar li a:hover, .dropdown:hover, .dropbtn:hover{
-	background-color: #FFE900;
-	color: #333;
-}
-
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 180px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-	z-index: 1;
-}
-
-.dropdown-content a{
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: center;
+.navbar li a:hover{
+    background-color: #FFE900 ;
+    color: #333;
 }
 
 .dropdown-content a:hover{
-	background-color: #FFE900;
+    background-color: #FFE900 ;
 }
 
 .dropdown:hover .dropdown-content {
-	display: block;
+    display: block;
 }
 
     /*CATALOGO*/
