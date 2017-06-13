@@ -1,7 +1,7 @@
     * {
         margin: 0;
         padding: 0;
-        font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     /*SLIDER*/
     
@@ -104,4 +104,8 @@
     
     .estilos-desarrollo span {
         font-weight: bolder;
+    }
+    
+    footer h5 {
+        color: #ff0052;
     }
