@@ -205,14 +205,19 @@
     }
 
 
-
     .title-slider{
         color: white;
-        font-weight: bolder;
+        padding-bottom: 8%;
     }
     .title-slider h2{
         margin: 0;
+        font-weight: bolder;
     }
+
+    .title-slider p{
+        font-weight: bold;
+    }
+
 
 
     /*estilo FOOTER*/
