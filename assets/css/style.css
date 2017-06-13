@@ -39,6 +39,12 @@
         color: whitesmoke;
     }
     
+    .btn-info {
+        color: #fff;
+        background-color: #C4003F;
+        border-color: #C4003F;
+    }
+    
     h4 {
         font-weight: bolder;
     }
