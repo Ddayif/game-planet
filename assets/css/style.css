@@ -26,6 +26,11 @@
 	color: white;
 	text-align: center;
 	text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+ul{
+    font-family: Roboto
 }
 
 .navbar li a:hover{
