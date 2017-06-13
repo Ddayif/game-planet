@@ -203,15 +203,15 @@
                 </div>
             </div>
         </div>
-        <form class="formulario">
+        <form class="formulario form-body">
+            <form class="formulario data-toggle=" validator " role="form "">            <div class="form-group">
+               <label for="inputName" class="control-label">Name</label>
+               <input type="text" class="form-control" id="inputName" placeholder="Username" required>
+           </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">First and last name*:</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Your email address*:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <label for="inputEmail" class="control-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+                 <div class="help-block with-errors"></div>
             </div>
 
             <div class="form-group">
@@ -224,7 +224,7 @@
                 <small id="fileHelp" class="form-text text-muted">Attachments</small>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button id="btn-submit" type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
     <!-- footer -->
